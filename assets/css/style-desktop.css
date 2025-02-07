@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: 'open sans';
+    line-height: 1.65;
+    color: #393d41;
+    font-size: 1.2rem;
+}
+
+header {
+    background-color: black;
+    text-align: left;
+}
+
+header img {
+    height: 3em;
+    padding: 1em 0 1em 2em;
+}
+
+main {
+    text-align: center;
+}
+
+section#intro {
+    background-image: url(../images/banner.jpg) ;
+    background-size: cover;
+    height: 22em;
+    align-content: center;
+}
+
+main h1 {
+    font-family: 'montserrat';
+    color: #25a2c3;
+    line-height: 1.5;
+    font-size: 2em;
+    font-style: bold;
+    font-weight: 600;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+section#intro p {
+    padding: 0 1.5em;
+    padding-bottom: 0;
+}
+
+section#intro button {
+    background-color: #f04c2f;
+    font-family: 'montserrat';
+    font-style: bold;
+    color: white;
+    border: none;
+    border-radius: 0.2em;
+    padding: 10px 15px;
+    margin: 2em auto;
+    cursor: pointer;
+}
+
+section h3 {
+    color: #25a2c3;
+    font-family: 'montserrat';
+    line-height: 1.5;
+    font-style: bold;
+    font-weight: 600;
+    margin-top: 2.5em;
+} 
+
+section#about {
+    text-align: left;
+    padding: 2em auto;
+    
+}
+
+section#about section {
+    display: inline-block;
+    margin: auto 2em auto 4em;
+    
+}
+
+section#about img {
+    border-radius: 100%;
+    width: 100%; 
+}
+
+section#info p {
+    margin: 0 auto;
+    width: 100%;
+}
+
+section#info h3 {
+   width: 100%;
+   margin-top: 1em;
+}
+
+
+section#info {
+    padding-bottom: 2em;
+    text-align: left;
+    margin-left: 2.5em;
+    
+}
+
+section#guarantees {
+    background-color: #e22d0e;
+    color: white;
+    margin-bottom: 2.5em;
+}
+
+section#guarantees h2 {
+    font-family: 'montserrat';
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+section#guarantees > h2+p {
+    font-style:italic;
+    font-weight: 100;
+    padding: 0.5em 1.5em;
+}
+
+section#guarantees p {
+    font-weight: 200;
+}
+
+section#guarantees p:last-of-type {
+    padding-bottom: 4em;
+    font-size: 0.7em;
+}
+
+div.img-adv {
+margin: auto;
+height: 290px;
+}
+
+section#advantages div {
+    margin: 0 auto 0 auto;
+    width: 20em;
+    border: 1px solid #dee1e3;
+    display: inline-block;
+}
+
+section#advantages {
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+
+div img {
+    width: 90%;
+    margin-bottom: 0;
+}
+
+div.img-adv {
+    border: none;
+}
+
+div h3 {
+    margin: 1em auto;
+}
+
+div p {
+    
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+}
+
+footer h2 {
+    font-family: 'montserrat';
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-top: 1.5em;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    padding-bottom: 3em;
+}
+
+footer hr {
+    width: 50%;
+}
