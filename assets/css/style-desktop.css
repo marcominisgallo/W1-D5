@@ -149,10 +149,14 @@ section#advantages {
 div img {
     width: 90%;
     margin-bottom: 0;
+    height: 90%;
+    padding: 1em auto auto auto;
 }
 
 div.img-adv {
     border: none;
+    width: 100%;
+    border-bottom: 1px solid;
 }
 
 div h3 {
